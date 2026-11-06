@@ -20,8 +20,6 @@ spec:
         app.kubernetes.io/name: citybike
     spec:
       terminationGracePeriodSeconds: 10
-      containers:    spec:
-      terminationGracePeriodSeconds: 10
       securityContext:
         runAsNonRoot: true
         runAsUser: 1000
